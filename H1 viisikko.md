@@ -38,3 +38,12 @@ Ajoin komennon sudo salt-call --local pkg.install name=htop ja ensimmäisellä a
 Toisella ajolla koska htop on jo asennettu, Salt ei tee mitään, ja tuloksena on ilmoitus, että paketti on jo olemassa.
 Salt-tilafunktio on idempotentti, koska sen suorittaminen ei muuta järjestelmää, jos määritelty tila on jo saavutettu. Tämä takaa, ettei pakettia asenneta uudelleen, jos se on jo asennettu.
 Ominaisuus tekee Saltin käytöstä luotettavaa, koska voidaan varmistaa, että tila pysyy haluttuna, vaikka komentoja ajettaisiin useita kertoja.
+
+# Lähteet 
+salt instal quide https://docs.saltproject.io/salt/install-guide/en/latest/topics/install-by-operating-system/debian.html#install-salt-on-debian-12-bookworm-amd64 Luettu 29.10.2024.
+
+Karvinen 2023 Run Salt command Locally https://terokarvinen.com/2021/salt-run-command-locally/ Luettu 29.10.2024
+
+Karvinen 2023 Salt Quickstart https://terokarvinen.com/2018/03/28/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/ Luettu 29.10.2024
+
+Karvinen 2023 Raportin kirjoittaminen https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/ Luettu 29.20.2024
