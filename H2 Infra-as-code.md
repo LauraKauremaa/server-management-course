@@ -15,7 +15,11 @@ YAML Simple Structure: YAML yksinkertainen rakenne tekee tiedostojen lukemisesta
 Lists and Dictionaries - YAML Block Structures: YAML käyttää listoja ja sanakirjoja lohkorakenteina, jotka auttavat järjestämään tietoja hierarkkisesti ja selkeästi.
 
 # a) Hello vagrant!
-Olen asentanut vagrantin.
+Olen asentanut vagrantin ja virtualboxin.
+
+![image](https://github.com/user-attachments/assets/ffc25cdb-f184-48a3-a6c6-8ebd44bf7e82)
+
+
 ![image](https://github.com/user-attachments/assets/e700bbe7-ca05-43f6-9f0e-3a2d896dff3c)
 
 
