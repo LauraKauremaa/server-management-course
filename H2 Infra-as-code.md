@@ -39,7 +39,7 @@ Sen jälkeen suoritin komennon vagrant up käynnistääkseni virtuaalikoneen ja 
 
 
 # c) Kahden Linux-tietokoneen verkko Vagrantilla
-Tässä tehtävässä minulla oli vähän vaikeuksia saada yhdistettyä kaksi verkkoa, koska vagranttini jäi jumiin ja ei suosunut käynnistyä. Aloitin kuitenkin niin, että loin taas uuden hakemiston mdir vagrant_kaksiverkkoa. Sen jälkeen alustin vagrantfilen vagrant init komennolla. 
+Tässä tehtävässä minulla oli vähän vaikeuksia saada yhdistettyä kaksi verkkoa, koska vagranttini jäi jumiin ja ei suosunut käynnistyä. Aloitin kuitenkin niin, että loin taas uuden hakemiston mkdir vagrant_kaksiverkkoa. Sen jälkeen alustin vagrantfilen vagrant init komennolla. 
 
 
 
