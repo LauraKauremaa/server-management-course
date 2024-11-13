@@ -39,19 +39,24 @@ Sen jälkeen suoritin komennon vagrant up käynnistääkseni virtuaalikoneen ja 
 
 
 # c) Kahden Linux-tietokoneen verkko Vagrantilla
-Tässä tehtävässä minulla oli vähän vaikeuksia saada yhdistettyä kaksi verkkoa, koska vagranttini jäi jumiin ja ei suosunut käynnistyä. Aloitin kuitenkin niin, että loin taas uuden hakemiston mkdir vagrant_kaksiverkkoa. Sen jälkeen alustin vagrantfilen vagrant init komennolla. 
+Loin aluksi kaksi debian palvelinta.
+
+![image](https://github.com/user-attachments/assets/7010462d-98bb-4bee-8cbc-57bd324d2364)
 
 
+Alla olevassa kuvassa on luomani kahden palvelimen tiedot missä näkyy myös ip osoitteet.
+
+![image](https://github.com/user-attachments/assets/c0e8ee3b-0cc9-4fb2-9e29-060e0bd91169)
 
 
+Otin ssh yhteyden toiseen servereistä ja pingasin sitten toiseen serveriin.
+
+![image](https://github.com/user-attachments/assets/9c943969-5fc1-4f8f-9ee4-1f70192d98d0)
+
+Ja sain tehtyä tehtävän ilman mutkia.
 
 
-
-
-
-
-
-
+# d)  Herra-orja verkossa
 
 
 
