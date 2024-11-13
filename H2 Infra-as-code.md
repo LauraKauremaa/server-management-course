@@ -24,3 +24,13 @@ Olen asentanut vagrantin ja virtualboxin.
 
 
 # b) Linux vagrant
+Tein vagrantilla uuden Linux virtuaalikoneen. Loin ensiksi oman hakemiston ja siirryin sinne. Sen jälkeen suoritin komennon alustamaan vagrant ympäristöä:
+vagrant init ubuntu/bionic64
+
+
+![image](https://github.com/user-attachments/assets/daca7a44-e8a6-4e1a-b79a-2868fa985e4c)
+
+
+![image](https://github.com/user-attachments/assets/ed6c71c3-26cc-4087-9adb-7a52a498b7b9)
+
+
