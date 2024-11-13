@@ -34,6 +34,10 @@ Sen jälkeen suoritin komennon vagrant up käynnistääkseni virtuaalikoneen ja 
 
 ![image](https://github.com/user-attachments/assets/ed6c71c3-26cc-4087-9adb-7a52a498b7b9)
 
+
+![image](https://github.com/user-attachments/assets/efb02e96-6514-44a8-a1da-bb394ffe0f8a)
+
+
 # c) Kahden Linux-tietokoneen verkko Vagrantilla
 Tässä tehtävässä minulla oli vähän vaikeuksia saada yhdistettyä kaksi verkkoa, koska vagranttini jäi jumiin ja ei suosunut käynnistyä. Aloitin kuitenkin niin, että loin taas uuden hakemiston mdir vagrant_kaksiverkkoa. Sen jälkeen alustin vagrantfilen vagrant init komennolla. 
 
