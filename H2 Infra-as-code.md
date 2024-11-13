@@ -25,9 +25,9 @@ Olen asentanut vagrantin ja virtualboxin.
 
 # b) Linux vagrant
 Tein vagrantilla uuden Linux virtuaalikoneen. Loin ensiksi oman hakemiston ja siirryin sinne. Sen jälkeen suoritin komennon alustamaan vagrant ympäristöä:
-vagrant init ubuntu/bionic64
+vagrant init ubuntu/bookworm64
 Sitten lähdin muokkaamaan vagrantfile tiedostoani ja muutin sinne enemmän muistia ja prosessoritehoa. 
-Sen jälkeen suoritin komennon vagrant up käynnistääkseni virtuaalikoneen ja se onnistui hienosti. Vähän oli ongelmia kun latasi todella hitaasti, mutta lopulta sain sen käynnistettyä.
+Sen jälkeen suoritin komennon vagrant up käynnistääkseni virtuaalikoneen ja se onnistui hienosti. Vähän oli ongelmia kun latasi todella hitaasti, mutta lopulta sain sen käynnistettyä vagrant ssh komennolla.
 
 ![image](https://github.com/user-attachments/assets/daca7a44-e8a6-4e1a-b79a-2868fa985e4c)
 
@@ -35,6 +35,21 @@ Sen jälkeen suoritin komennon vagrant up käynnistääkseni virtuaalikoneen ja 
 ![image](https://github.com/user-attachments/assets/ed6c71c3-26cc-4087-9adb-7a52a498b7b9)
 
 # c) Kahden Linux-tietokoneen verkko Vagrantilla
+Tässä tehtävässä minulla oli vähän vaikeuksia saada yhdistettyä kaksi verkkoa, koska vagranttini jäi jumiin ja ei suosunut käynnistyä. Aloitin kuitenkin niin, että loin taas uuden hakemiston mdir vagrant_kaksiverkkoa. Sen jälkeen alustin vagrantfilen vagrant init komennolla. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -43,9 +58,9 @@ Sen jälkeen suoritin komennon vagrant up käynnistääkseni virtuaalikoneen ja 
 
 * Karvinen, Tero. Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux, 2018. https://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/?fromSearch=salt%20quickstart%20salt%20stack%20master%20and%20slave%20on%20ubuntu%20linux - luettu 12.11.2024
 
-Karvinen, Tero. Hello Salt Infra-as-Code, 2014. https://terokarvinen.com/palvelinten-hallinta/#h2-infra-as-code - luettu 12.11.2024
+* Karvinen, Tero. Hello Salt Infra-as-Code, 2014. https://terokarvinen.com/palvelinten-hallinta/#h2-infra-as-code - luettu 12.11.2024
 
-Karvinen, Tero. Salt Vagrant - automatically provision one master and two slaves, kohdat "Infra as Code" ja "top.sls", 2023. https://terokarvinen.com/2023/salt-vagrant/#infra-as-code---your-wishes-as-a-text-file - luettu 12.11.2024
+* Karvinen, Tero. Salt Vagrant - automatically provision one master and two slaves, kohdat "Infra as Code" ja "top.sls", 2023. https://terokarvinen.com/2023/salt-vagrant/#infra-as-code---your-wishes-as-a-text-file - luettu 12.11.2024
 
-Salt conributors. Luettu 13.11.2024
+* Salt conributors. Luettu 13.11.2024
 
