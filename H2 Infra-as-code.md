@@ -97,7 +97,46 @@ ja sain yhteyden:
 ![image](https://github.com/user-attachments/assets/e79d56e5-9c00-455e-9025-9a47c4e45e4f)
 
 
-# e)
+# e) Hei infrakoodi!  &  # f) sls-tiedosto verkon yli orjalla 
+
+Kirjoitin sls-tiedosto, joka tekee esimerkkitiedoston /tmp/ -kansioon.
+
+Lisäsin nämä tiedot: 
+
+![image](https://github.com/user-attachments/assets/88c50ba3-69e3-4e16-a2dc-bf1d7e13302d)
+
+ja sain luotua tiedoston:
+
+![image](https://github.com/user-attachments/assets/719d4bbb-9a4a-498c-9e81-567574305606)
+
+ja se näkyy minionilla
+
+![image](https://github.com/user-attachments/assets/80cd4e9b-d0e1-476e-8fa1-7ad4a59b99e8)
+
+
+# g) sls-tiedosto
+Tein sls-tiedoston ja se ajoi kaikki 4 pakettia.
+
+![image](https://github.com/user-attachments/assets/33ab6b67-c238-4b90-ad9f-4b8fd30ce915)
+
+
+# h) Top file
+
+
+apache.sls ja hello.sls sain toimimaan:
+
+![image](https://github.com/user-attachments/assets/826e409c-c4ef-4d91-8000-ca1f702e06d8)
+
+
+apache.sls tiedoston sisälle loin nämä:
+
+![image](https://github.com/user-attachments/assets/de8c5c82-7391-4f6d-85d7-1e1398dbe87a)
+
+
+hello.sls tiedoston sisälle puolestaan loin nämä:
+
+![image](https://github.com/user-attachments/assets/d2879989-41c5-431d-baf5-393748e2d657)
+
 
 
 # Lähteet:
