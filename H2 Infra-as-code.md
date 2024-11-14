@@ -57,9 +57,47 @@ Ja sain tehtyä tehtävän ilman mutkia.
 
 
 # d)  Herra-orja verkossa
+Aloitin niin, että asensin ensin Curl toiminnon sudo apt install curl ja sen jälkeen asensin palvelimille saltin komennoilla:
+
+Ensure keyrings dir exists
+mkdir -p /etc/apt/keyrings
+Download public key
+curl -fsSL https://packages.broadcom.com/artifactory/api/security/keypair/SaltProjectKey/public | sudo tee /etc/apt/keyrings/salt-archive-keyring.pgp
+Create apt repo target configuration
+curl -fsSL https://github.com/saltstack/salt-install-guide/releases/latest/download/salt.sources | sudo tee /etc/apt/sources.list.d/salt.sources
+
+Sen jälkeen päivitin paketit:
+sudo apt update
+sudo apt upgrade
+
+ja sitten asensin server 1 salt masterin ja server 2 salt minionin.
+sudo apt-get install salt-master
+sudo apt-get install salt-minion
+
+Salt minionilla vaihoin vähän tietoja:
+/etc/hosts
+192.168.56.110 salt
+sudo service salt-minion stop
+sudo service salt-minion start
+
+Salt masterillakin vaihoin tietoja:
+sudo salt-key
+sudo systemctl status salt-minion
+sudo systemctl status salt-master
+
+Seuraavaksi pitää asentaa avaimet jotta herra voi komentaa orjaa.
+
+![image](https://github.com/user-attachments/assets/63d224e2-6652-4b89-b2aa-42e86e2df870
 
 
+![image](https://github.com/user-attachments/assets/0b7eed44-25de-4591-bf5b-458d4dfb037b)
 
+ja sain yhteyden:
+
+![image](https://github.com/user-attachments/assets/e79d56e5-9c00-455e-9025-9a47c4e45e4f)
+
+
+# e)
 
 
 # Lähteet:
