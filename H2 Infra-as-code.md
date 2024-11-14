@@ -87,7 +87,7 @@ ja sain yhteyden:
 ![image](https://github.com/user-attachments/assets/e79d56e5-9c00-455e-9025-9a47c4e45e4f)
 
 
-# e) Hei infrakoodi!  &  # f) sls-tiedosto verkon yli orjalla 
+# e) Hei infrakoodi!  &  f) sls-tiedosto verkon yli orjalla 
 
 Kirjoitin sls-tiedosto, joka tekee esimerkkitiedoston /tmp/ -kansioon.
 
