@@ -60,20 +60,24 @@ Ja sain tehtyä tehtävän ilman mutkia.
 Aloitin niin, että asensin ensin Curl toiminnon sudo apt install curl ja sen jälkeen asensin palvelimille saltin komennoilla:
 
 Sen jälkeen päivitin paketit:
+
 sudo apt update
 sudo apt upgrade
 
-ja sitten asensin server 1 salt masterin ja server 2 salt minionin.
+ja sitten asensin server 1 salt masterin ja server 2 salt minionin:
+
 sudo apt-get install salt-master
 sudo apt-get install salt-minion
 
 Salt minionilla vaihoin vähän tietoja:
+
 /etc/hosts
 192.168.56.110 salt
 sudo service salt-minion stop
 sudo service salt-minion start
 
 Salt masterillakin vaihoin tietoja:
+
 sudo salt-key
 sudo systemctl status salt-minion
 sudo systemctl status salt-master
