@@ -17,14 +17,19 @@
 # a) Apache easy mode
 
 Aloitin apache2 asentamisen niin, että ensin katsoin päivitykset:
+
 sudo apt update 
 
 ja sitten latasin:
+
 sudo apt install apache2
+
 
 Asennuksen jälkeen loin uuden index.html kansion ja katsoin apache2 statuksen.
 
+
 loin kansion komennolla:
+
 echo "My Custom Apache Page" | sudo tee /var/www/html/index.html
 
 ja katsoin statuksen komennolla:
