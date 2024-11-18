@@ -39,25 +39,34 @@ sudo systemctl start apache2
 sudo systemctl status apache2
 
 
-![image](https://github.com/user-attachments/assets/48596853-b4fd-459d-9743-3e5cd351d9c8)
+![image](https://github.com/user-attachments/assets/79e913ea-9f48-4648-be2e-8059e61b27e4)
+
 
 
 Sitten aloitin automatisoinnin ja lisäsin install.sls tiedostoon nämä tiedot:
 
 
-![image](https://github.com/user-attachments/assets/a4d7a59b-b822-413e-ba5b-fcf69d9bc3dc)
+
+![image](https://github.com/user-attachments/assets/ae3e3987-a787-413e-a0a0-3e1b3c172419)
+
+
+muokkasin /srv/salt hakemistossa olevaa top.sls tiedostoa.
+
+
+![image](https://github.com/user-attachments/assets/92637aae-a845-48fc-8bd9-36571e1c9a8e)
+
 
 
 ja sen jälkeen kokeilin ja kaikki toimi miten piti.
 
 
-
-![image](https://github.com/user-attachments/assets/3c5f8dce-ffde-43fc-bf58-2af0c3d0e563)
-
+![image](https://github.com/user-attachments/assets/992e7b0c-82b2-4a3e-bddf-f156a9c2fde0)
 
 
+server2 (minion) tarkistin että indexi tiedoston sisältö on muuttunut.
 
-![image](https://github.com/user-attachments/assets/987fb887-9671-4e3c-9f60-a3ea754fdd28)
+
+![image](https://github.com/user-attachments/assets/440a73b5-8bc1-40e3-bff4-523d393308cc)
 
 
 
@@ -70,9 +79,17 @@ ja sen jälkeen kokeilin ja kaikki toimi miten piti.
 
 
 
+
+
+
+
+
+
+
+
 # c) Oma moduuli
 
-
+vielä mietinnässä.....
 
 
 
