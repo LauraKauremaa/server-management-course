@@ -30,13 +30,13 @@ Asennuksen jälkeen loin uuden index.html kansion ja katsoin apache2 statuksen.
 
 loin kansion komennolla:
 
-echo "My Custom Apache Page" | sudo tee /var/www/html/index.html
+<code>echo "My Custom Apache Page" | sudo tee /var/www/html/index.html</code>
 
 ja katsoin statuksen komennolla:
 
-sudo systemctl start apache2
+<code>sudo systemctl start apache2</code>
 
-sudo systemctl status apache2
+<code>sudo systemctl status apache2</code>
 
 
 ![image](https://github.com/user-attachments/assets/79e913ea-9f48-4648-be2e-8059e61b27e4)
