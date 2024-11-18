@@ -132,7 +132,7 @@ Otin käyttöön moduulin:
 Loin käyttäjän kotihakemistoon <code>public_html</code> hakemiston ja html tiedoston:
 
 <code>mkdir ~/public_html</code>
-<code>echo "<h1>Hello world again!</h1>" > ~/public_html/index.html</code>
+<code>echo "Hello world again!" > ~/public_html/index.html</code>
 
 ja asetin sinne oikeudet:
 
