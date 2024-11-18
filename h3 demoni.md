@@ -18,11 +18,11 @@
 
 Aloitin apache2 asentamisen niin, että ensin katsoin päivitykset:
 
-<code>sudo apt update></code> 
+<code>sudo apt update</code> 
 
 ja sitten latasin:
 
-sudo apt install apache2
+<code>sudo apt install apache2</code>
 
 
 Asennuksen jälkeen loin uuden index.html kansion ja katsoin apache2 statuksen.
