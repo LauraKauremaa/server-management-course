@@ -25,11 +25,12 @@ sudo apt install apache2
 Asennuksen jälkeen loin uuden index.html kansion ja katsoin apache2 statuksen.
 
 loin kansion komennolla:
-echo "<h1>My Custom Apache Page</h1>" | sudo tee /var/www/html/index.html
+echo "My Custom Apache Page" | sudo tee /var/www/html/index.html
 
 ja katsoin statuksen komennolla:
 
 sudo systemctl start apache2
+
 sudo systemctl status apache2
 
 
