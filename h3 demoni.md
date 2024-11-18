@@ -91,7 +91,7 @@ Sitten varmistin, että palvelu kuuntelee uusissa porteissa:
 
 <code>sudo ssh -tuln</code>
 
-![image](https://github.com/user-attachments/assets/063d90b4-9a5d-41b9-8a7a-973ab56bf873
+![image](https://github.com/user-attachments/assets/063d90b4-9a5d-41b9-8a7a-973ab56bf873) 
 
 
 Loin <code>/srv/salt/ssh</code> hakemistoon <code>openssh.sls</code> tiedoston ja kopioin <code>/etc/ssh/sshd_config</code> tiedoston tuohon samaan hakemistoon:
