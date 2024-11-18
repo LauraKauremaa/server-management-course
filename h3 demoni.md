@@ -73,17 +73,45 @@ server2 (minion) tarkistin että indexi tiedoston sisältö on muuttunut.
 
 # b) SSHouto
 
+Avasin tiedoston:
+
+<code>sudo nano /etc/ssh/sshd_config</code>
+
+lisäsin sinne rivit:
+
+<code>Port 22</code>
+<code>Port 2222</code>
+
+Sitten käynnistin SSH-palvelun uudelleen:
+
+<code>sudo systemctl restart sshd</code>
 
 
+Sitten varmistin, että palvelu kuuntelee uusissa porteissa:
+
+<code>sudo ssh -tuln</code>
+
+![image](https://github.com/user-attachments/assets/063d90b4-9a5d-41b9-8a7a-973ab56bf873
 
 
+Loin <code>/srv/salt/ssh</code> hakemistoon <code>openssh.sls</code> tiedoston ja kopioin <code>/etc/ssh/sshd_config</code> tiedoston tuohon samaan hakemistoon:
+
+![image](https://github.com/user-attachments/assets/08507773-8b09-42ca-8860-6f5dc189188e)
 
 
+Sitten muokkasin <code>top.sls</code> tiedostoa:
+
+![image](https://github.com/user-attachments/assets/219bf2aa-6b3e-4377-8f3e-cb79c513bb83)
 
 
+Ja suoritin komennon <code>sudo salt '*' status.apply</code>
+
+![image](https://github.com/user-attachments/assets/eb2086fd-9abe-41a9-9bdb-dc3d4113dd16)
 
 
+Server2 (minion) varmistin että palvelin kuntelee portteja 22 ja 2222
 
+![image](https://github.com/user-attachments/assets/5b176b07-58fa-4fee-83a0-0eb6b88c0ae6)
 
 
 
