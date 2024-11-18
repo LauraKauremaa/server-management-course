@@ -125,6 +125,39 @@ vielä mietinnässä.....
 
 # d) VirtualHost
 
+Otin käyttöön moduulin:
+<code>sudo a2enmod userdir</code>
+<code>sudo systemctl restart apache2</code>
+
+Loin käyttäjän kotihakemistoon <code>public_html</code> hakemiston ja html tiedoston:
+
+<code>mkdir ~/public_html</code>
+<code>echo "<h1>Hello world again!</h1>" > ~/public_html/index.html</code>
+
+ja asetin sinne oikeudet:
+
+<code>chmod 755 ~</code>
+<code>chmod 755 ~/public_html</code>
+<code>chmod 644 ~/public_html/index.html</code>
+
+Sitten määritin VirtualHost käyttämään käyttäjän kotihakemistoa ja muokkasin oletuskonfiguraatiota:
+
+<code>sudo nano /etc/apache2/sites-available/000-default.conf</code>
+
+Päivitin virtualhostin tiedot:
+
+
+![image](https://github.com/user-attachments/assets/236add16-b4d2-42f0-ab4a-82f410b76165)
+
+
+
+ja käynnistin apachen uudelleen:
+<code>sudo systemctl restart apache</code>
+
+ja kokeilin selaimessa:
+
+![image](https://github.com/user-attachments/assets/92f29b74-cdd3-4839-b415-669b1b09dd91)
+
 
 
 
