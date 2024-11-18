@@ -42,12 +42,22 @@ sudo systemctl status apache2
 ![image](https://github.com/user-attachments/assets/48596853-b4fd-459d-9743-3e5cd351d9c8)
 
 
+Sitten aloitin automatisoinnin ja lisäsin install.sls tiedostoon nämä tiedot:
+
+
+![image](https://github.com/user-attachments/assets/a4d7a59b-b822-413e-ba5b-fcf69d9bc3dc)
+
+
+ja sen jälkeen kokeilin ja kaikki toimi miten piti.
+
+
+
+![image](https://github.com/user-attachments/assets/3c5f8dce-ffde-43fc-bf58-2af0c3d0e563)
 
 
 
 
-
-
+![image](https://github.com/user-attachments/assets/987fb887-9671-4e3c-9f60-a3ea754fdd28)
 
 
 
