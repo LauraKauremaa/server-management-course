@@ -18,7 +18,7 @@
 
 Aloitin apache2 asentamisen niin, että ensin katsoin päivitykset:
 
-<sudo apt update> 
+<code>sudo apt update></code> 
 
 ja sitten latasin:
 
