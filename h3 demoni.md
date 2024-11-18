@@ -117,7 +117,7 @@ Server2 (minion) varmistin että palvelin kuntelee portteja 22 ja 2222
 
 # c) Oma moduuli
 
-vielä mietinnässä.....
+Space invaders minions palvelimella ja pelaaminen hostin selaimen kautta
 
 
 
@@ -159,14 +159,26 @@ ja kokeilin selaimessa:
 ![image](https://github.com/user-attachments/assets/92f29b74-cdd3-4839-b415-669b1b09dd91)
 
 
+Sitten automatisoin:
+
+Lisäsin tiedostoon <code>install.sls</code> tiedot:
+
+
+![image](https://github.com/user-attachments/assets/41689196-4419-48ee-9bbb-4712b2204159)
+
+
+![image](https://github.com/user-attachments/assets/487ed00e-ddc6-4386-9521-4f961ae4d793)
 
 
 
+sain toimimaan:
+
+![image](https://github.com/user-attachments/assets/a8786a3d-8ee6-4a83-b039-1dae986b4273)
 
 
+ja toimii server2 (minion)
 
-
-
+![image](https://github.com/user-attachments/assets/191a3be8-20fb-4f07-a320-eeb69b47ded5)
 
 
 
