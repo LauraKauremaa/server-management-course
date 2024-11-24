@@ -60,8 +60,8 @@ Avasin selaimen ja kirjoitin hakukenttään kyseisen IP osoitteen ja peli avautu
 
 ## Lähteet:
 
-Saltproject.io https://docs.saltproject.io/salt/user-guide/en/latest/index.html  Luettu 24.11.2024
+* Saltproject.io https://docs.saltproject.io/salt/user-guide/en/latest/index.html  Luettu 24.11.2024
 
-
+* github https://github.com/ Luettu 24.11.2024
 
 
