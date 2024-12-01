@@ -14,6 +14,8 @@ https://github.com/LauraKauremaa/server-management-course/blob/main/H4%20oma%20m
 
 
 
+
+
 Kuva lopputuloksesta:
 
 ![image](https://github.com/user-attachments/assets/df785c6b-3f7d-4dda-baa7-9075db857095)
