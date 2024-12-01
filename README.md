@@ -1,6 +1,7 @@
 # SPACE INVADERS 
 
 Tämän projektin tarkoitus on ladata vagrant virtuaalikoneeseen spade invaders peli salt-minionin avulla.
+Tarkoitus on saada Server 2 IP-osoitteesta <Code>192.168.65.120</code> avautumaan space invaders peli.
 
 Lisenssi: GNU General Public License, versio 3
 
