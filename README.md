@@ -7,6 +7,9 @@ Lisenssi: GNU General Public License, versio 3
 Tarvittavat tiedostot:
 https://github.com/LauraKauremaa/server-management-course/blob/main/SpaceInvaders.zip
 
+Tarkemmat ohjeet asennuksesta löytyvät tästä tiedostosta:
+https://github.com/LauraKauremaa/server-management-course/blob/main/H4%20oma%20moduuli.md 
+
 
 Kuva lopputuloksesta:
 
