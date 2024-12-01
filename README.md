@@ -4,6 +4,9 @@ Tämän projektin tarkoitus on ladata vagrant virtuaalikoneeseen spade invaders 
 
 Lisenssi: GNU General Public License, versio 3
 
+Tarvittavat tiedostot:
+https://github.com/LauraKauremaa/server-management-course/blob/main/SpaceInvaders.zip
+
 
 Kuva lopputuloksesta:
 
